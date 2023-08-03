@@ -16,7 +16,7 @@ header{
     background-attachment: fixed;
 }
 nav{
-    width: 100%;
+    width: 100%; 
     height: 80px;
     background: white;
     color: black;
@@ -289,5 +289,122 @@ footer{
     background: transparent;
     color: white;
     border: 1px solid white;
+    
+}
+
+@media (max-width: 600px) {
+    header{
+        height: 60vh;
+        background-repeat: no-repeat;
+        background-position: center;
+       
+    }
+    .logo{
+        font-size: 2.8vmax;
+    }
+    .menu a{
+        display: none;  
+    }
+    .icon i{
+        font-size: 18px;
+    }
+    .icon a{
+        padding: 8px 25px;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+    .h-text{
+        width: 80%;
+        top: 35%;
+        left: 50%;
+    }
+    .h-text h1{
+        font-size: 1.2em;
+    }
+    .h-text input{
+        width: 35%;
+        padding: 12px;
+        font-size: 11px;
+        margin-right: 1vmax;
+    }
+    .h-text button{
+        width: 35%;
+        padding: 8px;
+        font-size: 16px;
+    }
+    .filter-gallery{
+        padding: 20px;
+    }
+    .portfolio-menu{
+        width: 100%;
+    }
+    .portfolio-menu ul li{
+        margin: 0px 0px;
+        font-size: 17px;
+    }
+    .portfolio-item .item{
+        width: 100%;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .member{
+        width: 100%;
+        padding: 0px 10px;
+    }
+    .member-info h1{
+        font-size: 2.2em;
+    }
+    .member-card{
+        padding: 10px;
+        width: 100%;
+    }
+    .member-card h2{
+        font-size: 3vmax;
+    }
+    .m-images{
+        flex-direction: column;
+    }
+    .m-images img{
+        width: 100%;
+        height: 250px;
+    }
+    footer{
+        height: 100vh;
+        padding: 20px 0px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-direction: column;
+    
+    }
+    .newletter{
+        width: 90%;
+        flex-direction: column; 
+    }
+    .newletter >div{
+        text-align: center;
+    }
+    .f-contact{
+        width: 90%;
+        flex-wrap: wrap;
+        padding: 0vmax 3vmax;
+    }
+    .f-contact >div{
+        flex-basis: 50%;
+    }
+    .f-contact .info{
+        line-height: 3.5vmax;
+    }
+    .f-contact h2{
+        font-size: 2.5vmax;
+    }
+    .f-contact p{
+      font-size: 15px;
+    }
+    .f-contact i{
+        font-size: 1em;
+        padding: 1px;
+    }
+    
     
 }
